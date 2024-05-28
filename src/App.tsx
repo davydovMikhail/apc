@@ -3,6 +3,9 @@ import Autismcat from "../src/img/autismcat.png";
 import Lightning from "../src/img/lightning.svg";
 import PlushOne from "../src/img/plush1.png";
 import PlushTwo from "../src/img/plush2.png";
+import Trio from "../src/img/trio.png";
+import Dexscreener from "../src/img/dexscreener.png";
+import Dextools from "../src/img/dextools.png";
 
 function App() {
   return (
@@ -27,11 +30,9 @@ function App() {
             but we are
           </div>
         </div>
-
         <div className="title">
           Cats friends
         </div>
-
         <div className="post">
           <img className="post__img" src={Post} alt="" />
           <div className="post__links">
@@ -41,7 +42,6 @@ function App() {
           </div>
           <img className="post__cat" src={Autismcat} alt="Autismcat" />
         </div>
-
         <div className="looking">
           <div className="looking__title">
             what are you looking at?
@@ -53,7 +53,6 @@ function App() {
           <img className="looking__lightning" src={Lightning} alt="Lightning" />
           <img className="looking__plush" src={PlushOne} alt="PlushOne" />
         </div>
-
         <div className="join">
           <div className="join__title">
             join us
@@ -61,7 +60,6 @@ function App() {
           <div className="join__text">
             to push crypto cat <br /> autism worldwide.
           </div>
-
           <div className="join__infoblock infoblock infoblock__supply">
             <div className="infoblock__title">
               420.69k
@@ -87,6 +85,29 @@ function App() {
             </div>
           </div>
           <img className="join__cat" src={PlushTwo} alt="PlushTwo" />
+        </div>
+        <div className="narrative">
+          teh narrative is plush cat looking hella acoustic
+        </div>
+        <img className="trio" src={Trio} alt="Trio" />
+        <div className="ca">
+          CA: 0x2d55d594c7DfC8C02542f394cCA27271C15C9c21
+        </div>
+        <div className="links">
+          <a className="links__link" href="#">telegram</a>
+          <a className="links__link" href="#">twitter</a>
+          <a className="links__link" href="#">buy now</a>
+        </div>
+        <div className="tools">
+          <a className="tools__tool" href="#">
+            <img src={Dextools} alt="" />
+          </a>
+          <a className="tools__tool" href="#">
+            <img className="tools__pic" src={Dexscreener} alt="" />
+          </a>
+        </div>
+        <div className="copy">
+          copyright 2024
         </div>
       </div>
     </main>
