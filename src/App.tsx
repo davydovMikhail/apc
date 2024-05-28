@@ -2,6 +2,7 @@ import Post from "../src/img/post.png";
 import Autismcat from "../src/img/autismcat.png";
 import Lightning from "../src/img/lightning.svg";
 import PlushOne from "../src/img/plush1.png";
+import PlushTwo from "../src/img/plush2.png";
 
 function App() {
   return (
@@ -53,6 +54,40 @@ function App() {
           <img className="looking__plush" src={PlushOne} alt="PlushOne" />
         </div>
 
+        <div className="join">
+          <div className="join__title">
+            join us
+          </div>
+          <div className="join__text">
+            to push crypto cat <br /> autism worldwide.
+          </div>
+
+          <div className="join__infoblock infoblock infoblock__supply">
+            <div className="infoblock__title">
+              420.69k
+            </div>
+            <div className="infoblock__text">
+              total supply
+            </div>
+          </div>
+          <div className="join__infoblock infoblock infoblock__taxes">
+            <div className="infoblock__title">
+              zero
+            </div>
+            <div className="infoblock__text">
+              buy & sell taxes
+            </div>
+          </div>
+          <div className="join__infoblock infoblock infoblock__tiker">
+            <div className="infoblock__title">
+              $Pacf
+            </div>
+            <div className="infoblock__text">
+              token tiker
+            </div>
+          </div>
+          <img className="join__cat" src={PlushTwo} alt="PlushTwo" />
+        </div>
       </div>
     </main>
   );

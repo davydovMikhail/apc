@@ -407,7 +407,6 @@ body {
   animation: titleEffect 5s;
   animation-iteration-count: 1;
 }
-/* here */
 @keyframes lookingTitle {
   0% { transform: translate(-500px, 0); }
   50% { transform: translate(300px, 0); }
@@ -544,17 +543,12 @@ body {
   .looking__title {
     font-size: 55px;
   }
-  .looking__text {
-    font-size: 28px;
-  }
   .looking {
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 100px;
   }
-  .looking__text {
-    margin-top: 35px;
-  }
+
   .looking__link {
     margin-top: 35px;
   }
@@ -567,4 +561,181 @@ body {
     font-size: 28px;
   }
 }
+.join {
+  max-width: 1373px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 352px;
+  position: relative;
+}
+.join__title {
+  color: #000;
+  text-align: right;
+  text-shadow: -17.895px 17.895px 0px #F7D046;
+  font-family: "Cy Grotesk";
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%; /* 196px */
+  text-transform: uppercase;
+}
+.join__text {
+  color: #000;
+  text-align: right;
+  font-family: "Nyasha Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 32px;
+}
+.infoblock {
+  width: max-content;
+  margin-bottom: 66px;
+}
+.infoblock__supply {
+  margin-left: 30%;
+}
+.infoblock__taxes {
+  margin-left: 40%;
+}
+.infoblock__tiker {
+  margin-left: 50%;
+}
+.infoblock__title {
+  margin-bottom: 12px;
+  color: #000;
+  text-shadow: -10.863px 10.863px 0px #F7D046;
+  font-family: "Cy Grotesk";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 140%; /* 89.6px */
+  text-transform: uppercase;
+}
+.infoblock__text {
+  color: #000;
+  font-family: "Nyasha Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.join__text {
+  margin-bottom: 136px;
+}
+.join__cat {
+  position: absolute;
+  top: -10%;
+  left: -20%;
+  z-index: -100;
+  animation: joinCatEffect 5s;
+  animation-iteration-count: infinite;
+}
+/* here */
 
+@keyframes joinCatEffect {
+  0% { transform: translate(20px, 20px) rotate(5deg); }
+  25% { transform: translate(20px, -20px) rotate(-5deg); }
+  50% { transform: translate(-20px, -20px) rotate(5deg); }
+  75% { transform: translate(-20px, 20px) rotate(-5deg); }
+  100% { transform: translate(20px, 20px) rotate(5deg); }
+}
+
+@media (max-width: 1024px) {
+  .join {
+    margin-top: 800px;
+  }
+  .join__title {
+    font-size: 100px;
+  }
+  .infoblock__supply {
+    margin-left: 10%;
+  }
+  .infoblock__taxes {
+    margin-left: 20%;
+  }
+  .infoblock__tiker {
+    margin-left: 30%;
+  }
+}
+@media (max-width: 600px) {
+  .join__title {
+    font-size: 60px;
+  }
+  .join__text {
+    font-size: 28px;
+  }
+}
+@media (max-width: 750px) {
+  .infoblock__title {
+    font-size: 48px;
+  }
+  .infoblock__text {
+    font-size: 36px;
+  }
+}
+@media (max-width: 500px) {
+  .infoblock__supply {
+    margin-left: 0%;
+  }
+  .infoblock__taxes {
+    margin-left: 5%;
+  }
+  .infoblock__tiker {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 420px) {
+  .infoblock__title {
+    font-size: 36px;
+  }
+  .infoblock__text {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1824px) {
+  .join__cat {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    z-index: -100;
+  }
+}
+@media (max-width: 1557px) {
+  .join__cat {
+    top: 15%;
+    left: 0%;
+    z-index: -100;
+  }
+}
+@media (max-width: 1200px) {
+  .join__cat {
+    top: 105%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: -100;
+  }
+}
+@media (max-width: 766px) {
+  .join__cat {
+    width: 500px;
+    height: auto;
+  }
+}
+@media (max-width: 575px) {
+  .join__cat {
+    width: 400px;
+  }
+}
+@media (max-width: 475px) {
+  .join__cat {
+    width: 300px;
+  }
+}
