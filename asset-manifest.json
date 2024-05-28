@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/apc/static/css/main.9f40377d.css",
+    "main.js": "/apc/static/js/main.aef44764.js",
+    "static/media/autismcat.png": "/apc/static/media/autismcat.13070261c4b0decd923d.png",
+    "static/media/post.png": "/apc/static/media/post.6fda9125ab19841d3844.png",
+    "static/media/plush1.png": "/apc/static/media/plush1.a145826960fb1597275f.png",
+    "static/media/cy-grotesk-grand-dark.otf": "/apc/static/media/cy-grotesk-grand-dark.b3df9f9044ed77ae778e.otf",
+    "static/media/nyasha_sans.ttf": "/apc/static/media/nyasha_sans.01a1b04182f6c61034cf.ttf",
+    "static/media/lightning.svg": "/apc/static/media/lightning.cff4303595eae7d9b514a998ca8a98ae.svg",
+    "index.html": "/apc/index.html",
+    "main.9f40377d.css.map": "/apc/static/css/main.9f40377d.css.map",
+    "main.aef44764.js.map": "/apc/static/js/main.aef44764.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f40377d.css",
+    "static/js/main.aef44764.js"
+  ]
+}
