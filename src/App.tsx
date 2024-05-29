@@ -97,7 +97,7 @@ function App() {
           <img className="trio__cat3" src={Cat3} alt="Cat3" />
         </div>
         <div className="ca">
-          CA: 0x2d55d594c7DfC8C02542f394cCA27271C15C9c21
+          CA: 0x0000000000000000000000000000000000000000 
         </div>
         <div className="links">
           <a className="links__link" href="#">telegram</a>
