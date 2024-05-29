@@ -188,11 +188,56 @@ template {
 }
 body {
   background: #F5E3D9;
+  background-image: 
+    url('./img/pinkstar.svg'), 
+    url('./img/redstar.svg'),
+    url('./img/yellow.svg'),
+    url('./img/blackblick.svg'),
+    url('./img/flower.svg'),
+    url('./img/rainbow.svg'),
+    url('./img/circle.svg'),
+    url('./img/linearrow.svg'),
+    url('./img/message.svg'),
+    url('./img/redstar1.svg'),
+    url('./img/cactus.svg'),
+    url('./img/yellow1.svg'),
+    url('./img/arrow.svg'),
+    url('./img/goal.svg'),
+    url('./img/rainbow1.svg'),
+    url('./img/yellow2.svg'),
+    url('./img/blackblick.svg'),
+    url('./img/flower.svg'),
+    url('./img/pink1.svg'),
+    url('./img/pink2.svg');
+  background-position: 
+    left top, 
+    right top, 
+    98% top,
+    10% 8%,
+    85% 11%,
+    105% 15%,
+    10% 23%,
+    53% 25%,
+    70% 32%,
+    94% 45%,
+    31% 52%,
+    48% 62%,
+    89% 67%,
+    14% 71%,
+    10% 85%,
+    49% 83%,
+    68% 81%,
+    81% 84%,
+    bottom left,
+    bottom right;
+  background-repeat: 
+    no-repeat;
 }
 
 .bg-wrapper {
   display: block;
   margin: 0 auto;
+  
   /* background-image: url('./img/circles.svg'), url('./img/circles.svg'), url('./img/circles.svg'), url('./img/blur1.png'), url('./img/circles.svg'), url('./img/blur2.png'), url('./img/circles.svg');
   background-position: right 152px, left 152px, left 36%, right 30%, right 60%, left 73%, left bottom;
   background-repeat: no-repeat, no-repeat; */
@@ -807,10 +852,44 @@ body {
 }
 .trio {
   margin: 0 auto;
-  display: block;
-  max-width: 1160px;
+  display: flex;
+  align-content: center;
+  max-width: 1200px;
   width: 100%;
+  align-items: end;
+  animation: plushEffect 3s;
+  animation-iteration-count: infinite;
+}
+.trio__cat1 {
   height: auto;
+  width: 40.68%;
+  animation: joinCatEffectInner 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes joinCatEffectInner {
+  0% { transform: translate(20px, 20px) }
+  25% { transform: translate(20px, -20px) }
+  50% { transform: translate(-20px, -20px) }
+  75% { transform: translate(-20px, 20px) }
+  100% { transform: translate(20px, 20px) }
+}
+.trio__cat2 {
+  height: auto;
+  width: 32.07%;
+  animation: postEffectInner 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes postEffectInner {
+  0% { transform: translate(5px, -6px) }
+  20% { transform: translate(-7px, 4px) }
+  40% { transform: translate(5px, -7px) }
+  60% { transform: translate(-7px, 5px) }
+  80% { transform: translate(-5px, -5px) }
+  100% { transform: translate(5px, -6px)  }
+}
+.trio__cat3 {
+  height: auto;
+  width: 27.25%;
 }
 @media (max-width: 475px) {
   .narrative {

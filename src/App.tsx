@@ -3,9 +3,11 @@ import Autismcat from "../src/img/autismcat.png";
 import Lightning from "../src/img/lightning.svg";
 import PlushOne from "../src/img/plush1.png";
 import PlushTwo from "../src/img/plush2.png";
-import Trio from "../src/img/trio.png";
 import Dexscreener from "../src/img/dexscreener.png";
 import Dextools from "../src/img/dextools.png";
+import Cat1 from "../src/img/cat1.png";
+import Cat2 from "../src/img/cat2.png";
+import Cat3 from "../src/img/cat3.png";
 
 function App() {
   return (
@@ -89,7 +91,11 @@ function App() {
         <div className="narrative">
           teh narrative is plush cat looking hella acoustic
         </div>
-        <img className="trio" src={Trio} alt="Trio" />
+        <div className="trio">
+          <img className="trio__cat1" src={Cat1} alt="Cat1" />
+          <img className="trio__cat2" src={Cat2} alt="Cat2" />
+          <img className="trio__cat3" src={Cat3} alt="Cat3" />
+        </div>
         <div className="ca">
           CA: 0x2d55d594c7DfC8C02542f394cCA27271C15C9c21
         </div>
