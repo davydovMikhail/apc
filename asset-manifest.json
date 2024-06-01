@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa27ce8a.css",
-    "main.js": "/static/js/main.3c9074c3.js",
+    "main.css": "/static/css/main.3384dfb0.css",
+    "main.js": "/static/js/main.f7335ed5.js",
     "static/media/autismcat.png": "/static/media/autismcat.13070261c4b0decd923d.png",
     "static/media/post.png": "/static/media/post.6fda9125ab19841d3844.png",
     "static/media/plush2.png": "/static/media/plush2.3c7549a7245a90644b3c.png",
@@ -33,11 +33,11 @@
     "static/media/pink1.svg": "/static/media/pink1.66d9c0006dc57cec5524.svg",
     "static/media/blackblick.svg": "/static/media/blackblick.7f003adc0af9de8b0cf2.svg",
     "index.html": "/index.html",
-    "main.aa27ce8a.css.map": "/static/css/main.aa27ce8a.css.map",
-    "main.3c9074c3.js.map": "/static/js/main.3c9074c3.js.map"
+    "main.3384dfb0.css.map": "/static/css/main.3384dfb0.css.map",
+    "main.f7335ed5.js.map": "/static/js/main.f7335ed5.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa27ce8a.css",
-    "static/js/main.3c9074c3.js"
+    "static/css/main.3384dfb0.css",
+    "static/js/main.f7335ed5.js"
   ]
 }
