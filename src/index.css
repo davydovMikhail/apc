@@ -202,6 +202,7 @@ body {
     url('./img/cactus.svg'),
     url('./img/yellow1.svg'),
     url('./img/arrow.svg'),
+    /* url('./img/goal.svg'), */
     url('./img/goal.svg'),
     url('./img/rainbow1.svg'),
     url('./img/yellow2.svg'),
@@ -233,14 +234,54 @@ body {
   background-repeat: 
     no-repeat;
 }
+@media (max-width: 1318px) {
+  body {
+    background-image: 
+      url('./img/pinkstar.svg'), 
+      url('./img/redstar.svg'),
+      url('./img/yellow.svg'),
+      url('./img/blackblick.svg'),
+      url('./img/flower.svg'),
+      url('./img/rainbow.svg'),
+      url('./img/circle.svg'),
+      url('./img/linearrow.svg'),
+      url('./img/message.svg'),
+      url('./img/redstar1.svg'),
+      url('./img/cactus.svg'),
+      url('./img/yellow1.svg'),
+      url('./img/goal.svg'),
+      url('./img/rainbow1.svg'),
+      url('./img/yellow2.svg'),
+      url('./img/blackblick.svg'),
+      url('./img/flower.svg'),
+      url('./img/pink1.svg'),
+      url('./img/pink2.svg');
+    background-position: 
+      left top, 
+      right top, 
+      98% top,
+      10% 8%,
+      85% 11%,
+      105% 15%,
+      10% 23%,
+      53% 25%,
+      70% 32%,
+      94% 45%,
+      31% 52%,
+      48% 62%,
+      14% 71%,
+      10% 85%,
+      49% 83%,
+      68% 81%,
+      81% 84%,
+      bottom left,
+      bottom right;
+  }
+}
 
 .bg-wrapper {
   display: block;
   margin: 0 auto;
-  
-  /* background-image: url('./img/circles.svg'), url('./img/circles.svg'), url('./img/circles.svg'), url('./img/blur1.png'), url('./img/circles.svg'), url('./img/blur2.png'), url('./img/circles.svg');
-  background-position: right 152px, left 152px, left 36%, right 30%, right 60%, left 73%, left bottom;
-  background-repeat: no-repeat, no-repeat; */
 }
 .yes {
   margin: 0 auto;

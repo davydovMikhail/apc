@@ -8,6 +8,7 @@ import Dextools from "../src/img/dextools.png";
 import Cat1 from "../src/img/cat1.png";
 import Cat2 from "../src/img/cat2.png";
 import Cat3 from "../src/img/cat3.png";
+import { address, twitter, telegram } from "./links";
 
 function App() {
   return (
@@ -38,9 +39,9 @@ function App() {
         <div className="post">
           <img className="post__img" src={Post} alt="" />
           <div className="post__links">
-            <a className="post__link" href="#">telegram</a>
-            <a className="post__link" href="#">twitter</a>
-            <a className="post__link" href="#">buy now</a>
+            <a target="_blank" className="post__link" href={telegram}>telegram</a>
+            <a target="_blank" className="post__link" href={twitter}>twitter</a>
+            <a target="_blank" className="post__link" href={`https://raydium.io/swap/?inputMint=sol&outputMint=${address}`}>buy now</a>
           </div>
           <img className="post__cat" src={Autismcat} alt="Autismcat" />
         </div>
@@ -51,7 +52,7 @@ function App() {
           <div className="looking__text">
             it's just a plush cat, probably nothing.
           </div>
-          <a className="looking__link" href="#">buy now</a>
+          <a target="_blank" className="looking__link" href={`https://raydium.io/swap/?inputMint=sol&outputMint=${address}`}>buy now</a>
           <img className="looking__lightning" src={Lightning} alt="Lightning" />
           <img className="looking__plush" src={PlushOne} alt="PlushOne" />
         </div>
@@ -97,19 +98,19 @@ function App() {
           <img className="trio__cat3" src={Cat3} alt="Cat3" />
         </div>
         <div className="ca">
-          CA: 0x0000000000000000000000000000000000000000 
+          CA: {address}
         </div>
         <div className="links">
-          <a className="links__link" href="#">telegram</a>
-          <a className="links__link" href="#">twitter</a>
-          <a className="links__link" href="#">buy now</a>
+          <a target="_blank" className="links__link" href={telegram}>telegram</a>
+          <a target="_blank" className="links__link" href={twitter}>twitter</a>
+          <a target="_blank" className="links__link" href={`https://raydium.io/swap/?inputMint=sol&outputMint=${address}`}>buy now</a>
         </div>
         <div className="tools">
-          <a className="tools__tool" href="#">
-            <img src={Dextools} alt="" />
+          <a target="_blank" className="tools__tool" href={`https://www.dextools.io/app/en/solana/pair-explorer/${address}`}>
+            <img src={Dextools} alt="Dextools" />
           </a>
-          <a className="tools__tool" href="#">
-            <img className="tools__pic" src={Dexscreener} alt="" />
+          <a target="_blank" className="tools__tool" href={`https://dexscreener.com/solana/${address}`}>
+            <img className="tools__pic" src={Dexscreener} alt="Dexscreener" />
           </a>
         </div>
         <div className="copy">
