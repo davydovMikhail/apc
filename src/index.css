@@ -902,10 +902,15 @@ body {
   animation-iteration-count: infinite;
 }
 .trio__cat1 {
-  height: auto;
+  max-height: 450px;
   width: 40.68%;
   animation: joinCatEffectInner 5s;
   animation-iteration-count: infinite;
+}
+@media (max-width: 919px) {
+  .trio__cat1 {
+    max-height: 300px;
+  }
 }
 @keyframes joinCatEffectInner {
   0% { transform: translate(20px, 20px) }
